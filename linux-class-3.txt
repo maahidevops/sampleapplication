@@ -35,8 +35,6 @@ find . -perm /a=x
 serive servicename start,stop,restart,reload
 systemctl start,stop,reload,restart servicename
 
-
-
-1000000
+120000
 
 domain name --- wix , godaddy
