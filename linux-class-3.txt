@@ -1,0 +1,42 @@
+mkdir -p /hello/hello1/hello2
+rmdir -- is generally used to delete the directories which are been empty
+
+   recurvise force rm -rf
+rm ---- this rm is used for both directories and files 
+vim , nano , touch
+umask values will decide the particular permissions of the file or directory
+
+		     umask     default dir
+
+root user    0022      755      777
+
+n user       0002      775
+
+
+----------------------------------
+ 			umask defaultfile    666
+
+rootuser   0022    644
+
+n user     0002    664
+
+
+base permissions for dir is   0777
+					0022
+				--------------
+					0755
+
+
+find / -name filename
+find . -type d -empty
+find ~ -name shankar
+find . -type f -perm 0777
+find . -perm /a=x
+serive servicename start,stop,restart,reload
+systemctl start,stop,reload,restart servicename
+
+
+
+1000
+
+domain name --- wix , godaddy
